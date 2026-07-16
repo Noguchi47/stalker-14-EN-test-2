@@ -1,6 +1,6 @@
 # 7.62x54
 - type: entity
-  parent: STBaseHRBullet
+  parent: STBaseBullet # EN
   id: Bullet754HPBT
   name: bullet (7.62x54 rifle)
   categories: [ HideSpawnMenu ]
@@ -27,6 +27,7 @@
     damage:
       types:
         Piercing: 57
+        Mutant: 57 # EN
   # - type: StaminaDamageOnCollide
     # damage: 10
 
